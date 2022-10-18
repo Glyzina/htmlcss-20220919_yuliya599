@@ -13,12 +13,16 @@
     flex-grow: 1;
 }
 
-.header__menu a {
+.header__menu__link {
     text-decoration: none;
     color: inherit;
 }
 
-  .header__menu ul {
+.header__menu__link:hover {
+  color: #212429;
+}
+
+.header__menu__list {
     display: flex;
     flex-flow: row nowrap;
     margin: 0;
@@ -28,7 +32,7 @@
    margin-right: 57px;
   }
 
-  .header__menu li {
+ .header__menu__item {
     margin-right: 12px;
     align-items: center;
     font-family: 'Inter';
@@ -40,11 +44,7 @@
     color: #ACB5BD;
   }
 
-  .header__menu as:hover {
-      color: #212429;
-  }
-
-  .header__menu li:last-child {
+  .header__menu__item:last-child {
     margin-right: 0;
   }
  

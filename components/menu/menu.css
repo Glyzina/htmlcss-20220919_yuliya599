@@ -1,4 +1,4 @@
-.menu {
+.menu_left {
     max-width: 229px;
     font-family: 'Inter';
     font-style: normal;
@@ -9,11 +9,11 @@
     margin-right: 56px;
 }
 
-.menu__title {
+.menu_left__title {
     font-size: 20px;
     line-height: 26px;
 }
 
-.menu__item:hover {
+.menu_left__item:hover {
     color:#D84910;
 }
