@@ -9,8 +9,11 @@
 @import '../../components/pagemain/templatepage__main.css';
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
+<<<<<<< HEAD
 @import '../../components/component/component.css';
 @import '../../components/menu/menu.css';
+=======
+>>>>>>> 45cdd55094070811d10a38940d0e0342965684a7
 @import 'resetstyle.css';
 
 :root {
